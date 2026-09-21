@@ -5,18 +5,29 @@ author:
   - name: George N. Mwangi
     email: mwangigeorge648@gmail.com
 date: "Last compiled on `r format(Sys.time(), '%d %B %Y')`"
+
 output:
   rmdformats::readthedown:
     df_print: paged
     number_sections: true
     code_folding: show
+    code-tools: true
+    code-copy: true
+    smooth-scroll: true
     toc_float: true
     keep_md: true
 editor_options:
   chunk_output_type: inline
 ---
-[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github)](https://github.com/mwangi-george/web-traffic-time-series-forecasting)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mwangi-george/)
+<p>
+  <a href="https://github.com/mwangi-george/web-traffic-time-series-forecasting" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github" alt="GitHub">
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mwangi-george/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
 
 ![](www/img/cover.png)
 
@@ -539,5 +550,12 @@ This project intentionally focuses on demonstrating a clear, reproducible **nest
 - **Count constraints:** Web visits are non-negative counts, but the regression framework and prediction intervals are not explicitly constrained to remain non-negative.
 
 
-[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github)](https://github.com/mwangi-george/web-traffic-time-series-forecasting)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mwangi-george/)
+<p>
+  <a href="https://github.com/mwangi-george/web-traffic-time-series-forecasting" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github" alt="GitHub">
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mwangi-george/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
