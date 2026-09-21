@@ -15,8 +15,10 @@ output:
 editor_options:
   chunk_output_type: inline
 ---
+[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github)](https://github.com/mwangi-george/web-traffic-time-series-forecasting)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mwangi-george/)
 
-![](www/img/cover.jpeg)
+![](www/img/cover.png)
 
 # Introduction
 
@@ -535,3 +537,7 @@ This project intentionally focuses on demonstrating a clear, reproducible **nest
 - **External drivers:** Events, search trends, media coverage, holidays, campaigns, and other exogenous variables that may explain sudden changes in page traffic are not modeled.
 - **Anomaly semantics:** Detected anomalies are treated as disturbances and adjusted before modeling. Some spikes may represent genuine events with predictive value.
 - **Count constraints:** Web visits are non-negative counts, but the regression framework and prediction intervals are not explicitly constrained to remain non-negative.
+
+
+[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github)](https://github.com/mwangi-george/web-traffic-time-series-forecasting)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mwangi-george/)
